@@ -13,7 +13,7 @@ const sendMail = async(text, email) => {
   const mailOptions = {
     from: 'quesadadiaz18@gmail.com',
     to: email,
-    subject: 'Correo de prueba para MonoLega SAS',
+    subject: 'Correo de prueba para MonoLegal SAS, usando Api NodeJs',
     text,
   };
 
